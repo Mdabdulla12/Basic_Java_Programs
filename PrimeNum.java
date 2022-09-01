@@ -1,6 +1,7 @@
-package basic;
+
 import java.util.Scanner;
-public class primew {public static void main(String[] args) {
+public class PrimeNum {
+    public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     int n =sc.nextInt();
     int div=2;
@@ -10,8 +11,6 @@ public class primew {public static void main(String[] args) {
         if(n%div==0)
         {
             isprime=false;
-
-
         }
  }
     if(isprime)
@@ -21,9 +20,6 @@ public class primew {public static void main(String[] args) {
     else{
         System.out.println("composite");
     }
-
-
-
 
 }
     
