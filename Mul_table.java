@@ -1,5 +1,3 @@
-package basic;
-
 import java.util.Scanner;
 
 public class Mul_table {public static void main(String[] args) {
